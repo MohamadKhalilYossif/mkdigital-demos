@@ -4,16 +4,16 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="robots" content="noindex,nofollow">
-<title>כנרת מזגנים | מיזוג אוויר בחיפה, בלי כאבי ראש</title>
-<meta name="description" content="כנרת מזגנים בחיפה - תיקון, תחזוקה, התקנה וניקוי וחיטוי מזגנים עיליים, רצפתיים ומיני מרכזיים. תיאום נוח בטלפון או בוואטסאפ, עבודה לפי מפרט מוסכם מראש.">
-<meta property="og:title" content="כנרת מזגנים — מיזוג אוויר בחיפה, בלי כאבי ראש">
-<meta property="og:description" content="כנרת מזגנים בחיפה - תיקון, תחזוקה, התקנה וניקוי וחיטוי מזגנים עיליים, רצפתיים ומיני מרכזיים. תיאום נוח בטלפון או בוואטסאפ, עבודה לפי מפרט מוסכם מראש.">
+<title>כנרת מזגנים | מזגנים בחיפה, בלי כאב ראש</title>
+<meta name="description" content="כנרת מזגנים בחיפה: תיקון, תחזוקה, התקנת מזגני עילי, רצפה ומיני מרכזי, וניקוי וחיטוי מזגנים. תיאום נוח בטלפון או בוואטסאפ.">
+<meta property="og:title" content="כנרת מזגנים — מזגנים בחיפה, בלי כאב ראש">
+<meta property="og:description" content="כנרת מזגנים בחיפה: תיקון, תחזוקה, התקנת מזגני עילי, רצפה ומיני מרכזי, וניקוי וחיטוי מזגנים. תיאום נוח בטלפון או בוואטסאפ.">
 <meta property="og:type" content="website">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700;900&display=swap" rel="stylesheet">
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","name":"כנרת מזגנים","telephone":"+972545951333","areaServed":"חיפה והסביבה","description":"כנרת מזגנים בחיפה - תיקון, תחזוקה, התקנה וניקוי וחיטוי מזגנים עיליים, רצפתיים ומיני מרכזיים. תיאום נוח בטלפון או בוואטסאפ, עבודה לפי מפרט מוסכם מראש."}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","name":"כנרת מזגנים","telephone":"+972545951333","areaServed":"חיפה והסביבה","description":"כנרת מזגנים בחיפה: תיקון, תחזוקה, התקנת מזגני עילי, רצפה ומיני מרכזי, וניקוי וחיטוי מזגנים. תיאום נוח בטלפון או בוואטסאפ."}</script>
 <style>
 :root{
   --accent:#047857; --accent-dark:#065f46;
@@ -34,6 +34,7 @@ header{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.92);backdro
 .nav{display:flex;align-items:center;justify-content:space-between;gap:16px;height:68px}
 .brand{display:flex;align-items:center;gap:11px;font-weight:900;font-size:19px;letter-spacing:-.02em}
 .brand .mark{width:38px;height:38px;border-radius:11px;background:linear-gradient(135deg,var(--accent),var(--accent-dark));color:#fff;display:grid;place-items:center;font-size:17px;font-weight:900;flex:none}
+.brand .logo{height:42px;width:auto;max-width:170px;object-fit:contain;display:block}
 .nav-links{display:none;gap:26px;font-size:15px;font-weight:500;color:var(--muted)}
 .nav-links a:hover{color:var(--accent)}
 .btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;border-radius:12px;padding:13px 22px;font-weight:700;font-size:15.5px;text-decoration:none;border:0;cursor:pointer;transition:transform .15s ease,box-shadow .15s ease;white-space:nowrap}
@@ -52,6 +53,18 @@ header{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.92);backdro
 .hero.has-photo .eyebrow{background:rgba(255,255,255,.13);border-color:rgba(255,255,255,.28);color:#fff;backdrop-filter:blur(6px)}
 .hero.has-photo h1 .hl{color:#7dd3b0}
 .hero.has-photo .btn-ghost{background:rgba(255,255,255,.95)}
+
+/* Drawn hero: used when the business publishes no photograph of its own. */
+.hero-art{display:none}
+.hero-art svg{width:100%;height:auto;color:var(--accent);opacity:.9}
+.hero-art .plate{background:linear-gradient(150deg,color-mix(in srgb,var(--accent) 9%,#fff),#fff);
+  border:1px solid var(--line);border-radius:22px;padding:26px;box-shadow:var(--shadow)}
+.statband{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);
+  border:1px solid var(--line);border-radius:14px;overflow:hidden;margin-top:22px}
+.statband div{background:#fff;padding:15px 14px;text-align:center}
+.statband b{display:block;font-size:15.5px;font-weight:800;color:var(--ink);line-height:1.3}
+.statband span{font-size:12.5px;color:var(--muted)}
+@media(min-width:860px){ .hero-art{display:block} }
 
 .gallery{padding:66px 0}
 .gallery .grid-g{display:grid;gap:12px;grid-template-columns:repeat(2,1fr)}
@@ -155,9 +168,9 @@ footer a:hover{color:#fff}
 <section class="hero " style="">
   <div class="wrap hero-grid">
     <div>
-      <span class="eyebrow">✦ שירותי מיזוג אוויר בחיפה</span>
-      <h1>פתרון מקצועי לכל תקלה <span class="hl">במזגן שלכם</span> בחיפה</h1>
-      <p class="lede">כנרת מזגנים מספקת שירותי מיזוג אוויר בחיפה והסביבה, ומטפלת בתיקון, תחזוקה, התקנה וניקוי של מזגנים עיליים, רצפתיים ומיני מרכזיים. אפשר לפנות בוואטסאפ או בטלפון ולתאם הגעה בזמן שנוח לכם, בהתאם למפרט שסוכם מראש.</p>
+      <span class="eyebrow">✦ שירותי מיזוג בחיפה והסביבה</span>
+      <h1>פתרון <span class="hl">מזגנים</span> אחד בחיפה, מתיקון ועד <span class="hl">חיטוי</span></h1>
+      <p class="lede">כנרת מזגנים מספקת תיקון ותחזוקה של מזגנים, התקנת מזגני עילי, רצפה ומיני מרכזי, וניקוי וחיטוי מקצועי. פנייה פשוטה בטלפון או בוואטסאפ, ותיאום זמן שנוח לשני הצדדים.</p>
       <div class="cta-row">
         <a class="btn btn-wa" href="https://wa.me/972545951333">שלחו הודעה בוואטסאפ</a>
         <a class="btn btn-ghost" href="tel:+972545951333">054-5951333</a>
@@ -165,6 +178,7 @@ footer a:hover{color:#fff}
       <div class="trust"><span><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.2"><path d="M20 6 9 17l-5-5"/></svg>מענה מהיר בוואטסאפ</span><span><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.2"><path d="M20 6 9 17l-5-5"/></svg>הגעה בתיאום מראש</span><span><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.2"><path d="M20 6 9 17l-5-5"/></svg>עבודה לפי מפרט מוסכם</span><span><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.2"><path d="M20 6 9 17l-5-5"/></svg>תיאום נוח בטלפון</span></div>
     </div>
 
+    <div class="hero-side">
     <div class="card-quote">
       <h3>בקשת הצעת מחיר</h3>
       <p>השאירו פרטים ונחזור אליכם.</p>
@@ -172,12 +186,26 @@ footer a:hover{color:#fff}
         <div class="field"><label for="n">שם מלא</label><input id="n" name="name" required placeholder="השם שלכם"></div>
         <div class="field"><label for="t">טלפון</label><input id="t" name="phone" type="tel" required placeholder="050-0000000"></div>
         <div class="field"><label for="s">סוג העבודה</label>
-          <select id="s" name="service"><option>תיקון מזגנים</option><option>תחזוקת מזגנים</option><option>התקנת מזגן (עילי/רצפתי/מיני מרכזי)</option><option>ניקוי וחיטוי מזגנים</option></select>
+          <select id="s" name="service"><option>תיקון מזגנים</option><option>תחזוקת מזגנים</option><option>התקנת מזגן עילי</option><option>התקנת מזגן רצפתי</option><option>מזגן מיני מרכזי</option><option>ניקוי וחיטוי מזגנים</option></select>
         </div>
         <div class="field"><label for="m">פרטים</label><textarea id="m" name="details" rows="3" placeholder="ספרו בקצרה מה נדרש"></textarea></div>
         <button class="btn btn-primary" style="width:100%" type="submit">שליחת הבקשה</button>
         <p class="form-note">הפניות נכנסות ישירות ל-SwiftCrew — כל הצוות רואה אותן ואף ליד לא הולך לאיבוד.</p>
       </form>
+    </div>
+    <div class="hero-art"><div class="plate"><svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <rect x="96" y="70" width="208" height="66" rx="12" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M96 112h208" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M126 126h148" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="272" cy="92" r="6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M150 92h74" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M132 168c14 12 14 26 0 38M180 168c14 12 14 26 0 38M228 168c14 12 14 26 0 38M276 168c14 12 14 26 0 38" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" opacity=".45"/>
+    <path d="M60 250h280" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" opacity=".45"/></svg></div>
+        <div class="statband">
+          <div><b>מיזוג אוויר וחיטוי</b><span>חיפה</span></div>
+          <div><b>וואטסאפ</b><span>מענה מהיר</span></div>
+          <div><b>תיאום מראש בטלפון</b><span>בזמן שנוח לכם</span></div>
+        </div></div>
     </div>
   </div>
 </section>
@@ -186,10 +214,10 @@ footer a:hover{color:#fff}
   <div class="wrap">
     <div class="section-head">
       <div class="kicker">השירותים שלנו</div>
-      <h2>השירותים שלנו במיזוג אוויר</h2>
-      <p>מכל סוגי המזגנים ועד לתחזוקה שוטפת, כנרת מזגנים נותנת מענה מקצועי בחיפה והסביבה.</p>
+      <h2>השירותים שאנחנו מציעים</h2>
+      <p>כל מה שקשור למזגן שלכם, במקום אחד.</p>
     </div>
-    <div class="grid c3"><div class="card"><div class="ico">🔧</div><h3>תיקון מזגנים</h3><p>איתור וטיפול בתקלות במזגן בבית או במשרד, כולל בדיקת תפקוד ותיקון הבעיה בהתאם למפרט שסוכם מראש.</p></div><div class="card"><div class="ico">🧰</div><h3>תחזוקת מזגנים</h3><p>טיפול תקופתי שמונע תקלות ושומר על ביצועי המזגן לאורך זמן, בתיאום נוח מראש בהתאם לצרכים שלכם.</p></div><div class="card"><div class="ico">🏠</div><h3>מזגנים עיליים</h3><p>התקנה וטיפול במזגנים עיליים, פתרון נפוץ ונוח המתאים לדירות ולבתים פרטיים, בהתאם למפרט שסוכם מראש.</p></div><div class="card"><div class="ico">❄️</div><h3>מזגנים רצפתיים</h3><p>פתרון יעיל למרפסות ולחללים גדולים, עם התקנה מסודרת ותיאום הגעה נוח מראש בהתאם לצרכים שלכם.</p></div><div class="card"><div class="ico">🌬️</div><h3>מזגנים מיני מרכזיים</h3><p>פתרון למי שמחפש מיזוג אחיד לכמה חדרים בבית או במשרד, עם התקנה מסודרת לפי מפרט שסוכם מראש עם הלקוח.</p></div><div class="card"><div class="ico">🧼</div><h3>ניקוי וחיטוי מזגנים</h3><p>ניקוי יסודי וחיטוי המזגן לשיפור איכות האוויר בבית, כולל טיפול במסננים ובחלקים הפנימיים של היחידה.</p></div></div>
+    <div class="grid c3"><div class="card"><div class="ico">🔧</div><h3>תיקון מזגנים</h3><p>איתור התקלה וטיפול בה כדי שהמזגן יחזור לעבוד כשורה.</p></div><div class="card"><div class="ico">🛠️</div><h3>תחזוקת מזגנים</h3><p>טיפול תקופתי שמסייע לשמור על תפקוד תקין של המזגן לאורך זמן.</p></div><div class="card"><div class="ico">❄️</div><h3>מזגן עילי</h3><p>התקנה של מזגן עילי בהתאם למאפייני החלל והצרכים שלכם.</p></div><div class="card"><div class="ico">🏠</div><h3>מזגן רצפתי</h3><p>התקנת מזגן רצפתי כפתרון מיזוג המתאים לסוגי חללים שונים.</p></div><div class="card"><div class="ico">🌀</div><h3>מזגן מיני מרכזי</h3><p>התקנת מערכת מיני מרכזי לחלוקת מיזוג אחידה בין כמה חדרים.</p></div><div class="card"><div class="ico">🧼</div><h3>ניקוי וחיטוי</h3><p>ניקוי וחיטוי המזגן לשיפור איכות האוויר היוצא ממנו.</p></div></div>
   </div>
 </section>
 
@@ -198,9 +226,9 @@ footer a:hover{color:#fff}
   <div class="wrap">
     <div class="section-head">
       <div class="kicker">למה אנחנו</div>
-      <h2>למה לבחור בכנרת מזגנים</h2>
+      <h2>למה לפנות אלינו</h2>
     </div>
-    <div class="grid c3"><div class="card"><div class="ico">📱</div><h3>תקשורת פשוטה ונוחה</h3><p>אפשר לתאם הכול בשיחה קצרה בוואטסאפ או בטלפון, בלי בירוקרטיה מיותרת ובקצב שנוח לכם ולמזגן שלכם.</p></div><div class="card"><div class="ico">📅</div><h3>עבודה לפי תיאום מראש</h3><p>כל ביקור מתואם מראש בזמן שנוח לכם, כך שההגעה מתאימה ללוח הזמנים שלכם בבית, במשרד או בכל מקום אחר.</p></div><div class="card"><div class="ico">📋</div><h3>עבודה לפי מפרט מוסכם</h3><p>לפני תחילת העבודה סוכם מראש יחד איתכם מה נדרש ומה כלול, כדי שתדעו בדיוק למה לצפות מהביקור.</p></div></div>
+    <div class="grid c3"><div class="card"><div class="ico">📍</div><h3>פעילים בחיפה</h3><p>עבודה מוכרת באזור חיפה, עם היכרות עם סוגי המזגנים הנפוצים בבתים ובעסקים.</p></div><div class="card"><div class="ico">📋</div><h3>טווח שירותים רחב</h3><p>מתיקון ותחזוקה ועד התקנה וחיטוי, תחת פנייה אחת.</p></div><div class="card"><div class="ico">💬</div><h3>תקשורת פשוטה</h3><p>תיאום מסודר מראש בטלפון או בוואטסאפ, כדי שתדעו למה לצפות.</p></div></div>
   </div>
 </section>
 
@@ -208,24 +236,24 @@ footer a:hover{color:#fff}
   <div class="wrap">
     <div class="section-head">
       <div class="kicker">התהליך</div>
-      <h2>איך מתבצעת העבודה מולנו</h2>
+      <h2>איך מתקדמים מולנו</h2>
     </div>
-    <div class="steps"><div class="step"><div class="n"></div><div><h4>פנייה ראשונית</h4><p>יוצרים קשר בוואטסאפ או בטלפון ומספרים בקצרה מה קורה עם המזגן ומה הבעיה.</p></div></div><div class="step"><div class="n"></div><div><h4>תיאום מועד</h4><p>קובעים יחד מועד הגעה שנוח לשני הצדדים, בהתאם ללוח הזמנים ולצרכים שלכם.</p></div></div><div class="step"><div class="n"></div><div><h4>ביצוע העבודה</h4><p>מגיעים למקום, בודקים את המזגן ומבצעים את העבודה לפי המפרט שסוכם מראש.</p></div></div><div class="step"><div class="n"></div><div><h4>סיום וסיכום</h4><p>בסיום העבודה עוברים יחד על מה שבוצע, כדי שתדעו בדיוק מה נעשה ומה מומלץ להמשך.</p></div></div></div>
+    <div class="steps"><div class="step"><div class="n"></div><div><h4>פנייה ראשונית</h4><p>יוצרים קשר בטלפון או בוואטסאפ ומתארים את הצורך.</p></div></div><div class="step"><div class="n"></div><div><h4>תיאום מועד</h4><p>קובעים יחד זמן הגעה שמתאים ללוח הזמנים שלכם.</p></div></div><div class="step"><div class="n"></div><div><h4>ביצוע העבודה</h4><p>מתבצע הטיפול הנדרש במזגן, לפי מה שסוכם מראש.</p></div></div><div class="step"><div class="n"></div><div><h4>סיכום מול הלקוח</h4><p>עוברים יחד על העבודה שבוצעה לפני סיום הביקור.</p></div></div></div>
   </div>
 </section>
 
 <section id="faq" class="alt">
   <div class="wrap" style="max-width:800px">
-    <div class="section-head"><div class="kicker">שאלות נפוצות</div><h2>שאלות נפוצות על השירות</h2></div>
-    <details><summary>אילו סוגי מזגנים אתם מטפלים בהם?</summary><p>אנחנו מטפלים במגוון סוגי מזגנים - עיליים, רצפתיים ומיני מרכזיים - וזה כולל תיקון, תחזוקה, התקנה, ניקוי וחיטוי, בהתאם למה שדרוש לכם.</p></details><details><summary>איך אפשר לתאם ביקור?</summary><p>פשוט פונים בוואטסאפ או בטלפון, מספרים בקצרה מה קורה עם המזגן, וקובעים יחד מועד הגעה בזמן שנוח לכם, ולפי הצורך גם מסכמים מראש את מפרט העבודה.</p></details><details><summary>האם אפשר לקבל שירות ניקוי וחיטוי בלבד, בלי תיקון?</summary><p>כן, ניקוי וחיטוי מזגנים הוא שירות עצמאי שאפשר להזמין גם בלי קשר לתקלה או לתחזוקה כללית - פשוט מתאמים מועד שנוח.</p></details><details><summary>באילו אזורים אתם פועלים?</summary><p>אנחנו נותנים שירות באזור חיפה והסביבה. לבדיקה אם אנחנו מגיעים גם לאזור שלכם, הכי פשוט לשלוח הודעה בוואטסאפ או בטלפון.</p></details>
+    <div class="section-head"><div class="kicker">שאלות נפוצות</div><h2>שאלות נפוצות</h2></div>
+    <details><summary>אילו סוגי מזגנים אתם מתקינים?</summary><p>אנחנו מתקינים מזגני עילי, מזגני רצפה ומזגנים מסוג מיני מרכזי, בהתאם לצורך בשטח.</p></details><details><summary>האם אתם מטפלים גם בניקוי מזגן קיים?</summary><p>כן, אנחנו מבצעים ניקוי וחיטוי של מזגנים קיימים כחלק מהשירותים שלנו.</p></details><details><summary>איך קובעים מועד לביקור?</summary><p>יוצרים קשר בטלפון או בוואטסאפ ומתאמים יחד מועד שנוח לשני הצדדים.</p></details><details><summary>האם אתם עובדים גם בתחזוקה שוטפת?</summary><p>כן, אנחנו מציעים גם שירותי תחזוקת מזגנים, לא רק תיקון נקודתי.</p></details>
   </div>
 </section>
 
 <section>
   <div class="wrap">
     <div class="cta-band">
-      <h2>מחפשים טיפול מקצועי במזגן? דברו איתנו</h2>
-      <p>פנו אלינו בוואטסאפ או בטלפון ותתאמו הגעה בזמן שנוח לכם.</p>
+      <h2>רוצים לתאם טיפול למזגן שלכם?</h2>
+      <p>צרו קשר בטלפון או בוואטסאפ ונתאם יחד את המועד המתאים.</p>
       <a class="btn btn-ghost" href="https://wa.me/972545951333" style="color:var(--accent-dark)">וואטסאפ · 054-5951333</a>
     </div>
   </div>
@@ -236,7 +264,7 @@ footer a:hover{color:#fff}
   <div class="wrap fgrid">
     <div>
       <h4>כנרת מזגנים</h4>
-      <p style="margin:0;max-width:44ch">כנרת מזגנים מספקת שירותי תיקון, תחזוקה, התקנה, ניקוי וחיטוי מזגנים בחיפה והסביבה, עבור מזגנים עיליים, רצפתיים ומיני מרכזיים.</p>
+      <p style="margin:0;max-width:44ch">כנרת מזגנים מספקת שירותי מיזוג אוויר בחיפה: תיקון, תחזוקה, התקנה וניקוי וחיטוי מזגנים.</p>
     </div>
     <div><h4>יצירת קשר</h4>
       <p style="margin:0 0 6px"><a href="tel:+972545951333">054-5951333</a></p>

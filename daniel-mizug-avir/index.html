@@ -4,16 +4,16 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="robots" content="noindex,nofollow">
-<title>דניאל מיזוג אוויר | תיקון מזגנים בקרית ים ובסביבה</title>
-<meta name="description" content="דניאל מיזוג אוויר בקרית ים – טכנאי עצמאי לתיקון מזגנים, מילוי גז וטיפול חשמלי במזגן. ניתן לתאם ביקור בטלפון או בוואטסאפ, בהתאם לתקלה שלכם ולזמינות שלכם.">
-<meta property="og:title" content="דניאל מיזוג אוויר — תיקון מזגנים בקרית ים ובסביבה">
-<meta property="og:description" content="דניאל מיזוג אוויר בקרית ים – טכנאי עצמאי לתיקון מזגנים, מילוי גז וטיפול חשמלי במזגן. ניתן לתאם ביקור בטלפון או בוואטסאפ, בהתאם לתקלה שלכם ולזמינות שלכם.">
+<title>דניאל מיזוג אוויר | תיקון מזגנים בקרית ים</title>
+<meta name="description" content="דניאל מיזוג אוויר בקרית ים - תיקוני מזגנים, מילוי גז וטיפול חשמלי במזגן. מענה מהיר בוואטסאפ ותיאום נוח לפי מפרט מוסכם מראש.">
+<meta property="og:title" content="דניאל מיזוג אוויר — תיקון מזגנים בקרית ים">
+<meta property="og:description" content="דניאל מיזוג אוויר בקרית ים - תיקוני מזגנים, מילוי גז וטיפול חשמלי במזגן. מענה מהיר בוואטסאפ ותיאום נוח לפי מפרט מוסכם מראש.">
 <meta property="og:type" content="website">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700;900&display=swap" rel="stylesheet">
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","name":"דניאל מיזוג אוויר","telephone":"+972524490817","areaServed":"קרית ים והסביבה","description":"דניאל מיזוג אוויר בקרית ים – טכנאי עצמאי לתיקון מזגנים, מילוי גז וטיפול חשמלי במזגן. ניתן לתאם ביקור בטלפון או בוואטסאפ, בהתאם לתקלה שלכם ולזמינות שלכם."}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","name":"דניאל מיזוג אוויר","telephone":"+972524490817","areaServed":"קרית ים והסביבה","description":"דניאל מיזוג אוויר בקרית ים - תיקוני מזגנים, מילוי גז וטיפול חשמלי במזגן. מענה מהיר בוואטסאפ ותיאום נוח לפי מפרט מוסכם מראש."}</script>
 <style>
 :root{
   --accent:#b45309; --accent-dark:#92400e;
@@ -34,6 +34,7 @@ header{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.92);backdro
 .nav{display:flex;align-items:center;justify-content:space-between;gap:16px;height:68px}
 .brand{display:flex;align-items:center;gap:11px;font-weight:900;font-size:19px;letter-spacing:-.02em}
 .brand .mark{width:38px;height:38px;border-radius:11px;background:linear-gradient(135deg,var(--accent),var(--accent-dark));color:#fff;display:grid;place-items:center;font-size:17px;font-weight:900;flex:none}
+.brand .logo{height:42px;width:auto;max-width:170px;object-fit:contain;display:block}
 .nav-links{display:none;gap:26px;font-size:15px;font-weight:500;color:var(--muted)}
 .nav-links a:hover{color:var(--accent)}
 .btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;border-radius:12px;padding:13px 22px;font-weight:700;font-size:15.5px;text-decoration:none;border:0;cursor:pointer;transition:transform .15s ease,box-shadow .15s ease;white-space:nowrap}
@@ -52,6 +53,18 @@ header{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.92);backdro
 .hero.has-photo .eyebrow{background:rgba(255,255,255,.13);border-color:rgba(255,255,255,.28);color:#fff;backdrop-filter:blur(6px)}
 .hero.has-photo h1 .hl{color:#7dd3b0}
 .hero.has-photo .btn-ghost{background:rgba(255,255,255,.95)}
+
+/* Drawn hero: used when the business publishes no photograph of its own. */
+.hero-art{display:none}
+.hero-art svg{width:100%;height:auto;color:var(--accent);opacity:.9}
+.hero-art .plate{background:linear-gradient(150deg,color-mix(in srgb,var(--accent) 9%,#fff),#fff);
+  border:1px solid var(--line);border-radius:22px;padding:26px;box-shadow:var(--shadow)}
+.statband{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);
+  border:1px solid var(--line);border-radius:14px;overflow:hidden;margin-top:22px}
+.statband div{background:#fff;padding:15px 14px;text-align:center}
+.statband b{display:block;font-size:15.5px;font-weight:800;color:var(--ink);line-height:1.3}
+.statband span{font-size:12.5px;color:var(--muted)}
+@media(min-width:860px){ .hero-art{display:block} }
 
 .gallery{padding:66px 0}
 .gallery .grid-g{display:grid;gap:12px;grid-template-columns:repeat(2,1fr)}
@@ -140,7 +153,7 @@ footer a:hover{color:#fff}
 
 <header>
   <div class="wrap nav">
-    <div class="brand"><span class="mark">דמ</span>דניאל מיזוג אוויר</div>
+    <div class="brand"><img class="logo" src="img/logo.webp" alt="דניאל מיזוג אוויר"></div>
     <nav class="nav-links">
       <a href="#services">השירותים</a>
       <a href="#why">למה אנחנו</a>
@@ -155,16 +168,17 @@ footer a:hover{color:#fff}
 <section class="hero " style="">
   <div class="wrap hero-grid">
     <div>
-      <span class="eyebrow">✦ שירותי מיזוג אוויר בקרית ים</span>
-      <h1>טכנאי מזגנים בקרית ים לתיקון <span class="hl">מקצועי ומדויק</span></h1>
-      <p class="lede">דניאל מיזוג אוויר הוא טכנאי עצמאי מקרית ים, המתמחה בתיקון מזגנים, מילוי גז וטיפול חשמלי במזגן. ניתן ליצור קשר ולתאם מועד הגעה בהתאם לתקלה שממנה סובל המזגן שלכם, כך שהטיפול מותאם בדיוק לבעיה שדיווחתם עליה.</p>
+      <span class="eyebrow">✦ שירות בקרית ים והסביבה</span>
+      <h1><span class="hl">תיקון מזגנים</span> מקצועי בקרית ים</h1>
+      <p class="lede">טכנאי עצמאי המתמחה בתיקוני מזגנים, מילוי גז וטיפול חשמלי במזגן. פנייה בוואטסאפ או בטלפון, תיאום זמן הגעה מראש ועבודה לפי מה שסוכם מולכם.</p>
       <div class="cta-row">
         <a class="btn btn-wa" href="https://wa.me/972524490817">שלחו הודעה בוואטסאפ</a>
         <a class="btn btn-ghost" href="tel:+972524490817">052-4490817</a>
       </div>
-      <div class="trust"><span><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.2"><path d="M20 6 9 17l-5-5"/></svg>מענה מהיר בוואטסאפ</span><span><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.2"><path d="M20 6 9 17l-5-5"/></svg>הגעה בתיאום מראש</span><span><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.2"><path d="M20 6 9 17l-5-5"/></svg>עבודה לפי תקלה מוגדרת</span><span><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.2"><path d="M20 6 9 17l-5-5"/></svg>תיאום נוח בטלפון</span></div>
+      <div class="trust"><span><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.2"><path d="M20 6 9 17l-5-5"/></svg>מענה מהיר בוואטסאפ</span><span><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.2"><path d="M20 6 9 17l-5-5"/></svg>הגעה בתיאום מראש</span><span><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.2"><path d="M20 6 9 17l-5-5"/></svg>עבודה לפי מפרט מוסכם</span><span><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.2"><path d="M20 6 9 17l-5-5"/></svg>תיאום נוח בטלפון</span></div>
     </div>
 
+    <div class="hero-side">
     <div class="card-quote">
       <h3>בקשת הצעת מחיר</h3>
       <p>השאירו פרטים ונחזור אליכם.</p>
@@ -172,12 +186,26 @@ footer a:hover{color:#fff}
         <div class="field"><label for="n">שם מלא</label><input id="n" name="name" required placeholder="השם שלכם"></div>
         <div class="field"><label for="t">טלפון</label><input id="t" name="phone" type="tel" required placeholder="050-0000000"></div>
         <div class="field"><label for="s">סוג העבודה</label>
-          <select id="s" name="service"><option>תיקון מזגן שלא מקרר</option><option>תיקון מזגן שלא מחמם</option><option>מילוי גז למזגן</option><option>טיפול חשמלי במזגן</option><option>אבחון תקלה כללי</option><option>אחר</option></select>
+          <select id="s" name="service"><option>תיקון מזגן</option><option>מילוי גז</option><option>טיפול חשמלי במזגן</option><option>בדיקת תקלה</option><option>אחר</option></select>
         </div>
         <div class="field"><label for="m">פרטים</label><textarea id="m" name="details" rows="3" placeholder="ספרו בקצרה מה נדרש"></textarea></div>
         <button class="btn btn-primary" style="width:100%" type="submit">שליחת הבקשה</button>
         <p class="form-note">הפניות נכנסות ישירות ל-SwiftCrew — כל הצוות רואה אותן ואף ליד לא הולך לאיבוד.</p>
       </form>
+    </div>
+    <div class="hero-art"><div class="plate"><svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <rect x="96" y="70" width="208" height="66" rx="12" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M96 112h208" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M126 126h148" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="272" cy="92" r="6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M150 92h74" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M132 168c14 12 14 26 0 38M180 168c14 12 14 26 0 38M228 168c14 12 14 26 0 38M276 168c14 12 14 26 0 38" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" opacity=".45"/>
+    <path d="M60 250h280" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" opacity=".45"/></svg></div>
+        <div class="statband">
+          <div><b>תיקוני מזגנים</b><span>קרית ים</span></div>
+          <div><b>וואטסאפ</b><span>מענה מהיר</span></div>
+          <div><b>תיאום מראש בטלפון</b><span>בזמן שנוח לכם</span></div>
+        </div></div>
     </div>
   </div>
 </section>
@@ -186,10 +214,10 @@ footer a:hover{color:#fff}
   <div class="wrap">
     <div class="section-head">
       <div class="kicker">השירותים שלנו</div>
-      <h2>השירותים שדניאל מיזוג אוויר מציע</h2>
-      <p>טיפול ממוקד בתקלות מזגן, ללא התקנות חדשות.</p>
+      <h2>השירותים שאנחנו מציעים</h2>
+      <p>טיפול במזגנים קיימים, ללא התקנות חדשות.</p>
     </div>
-    <div class="grid c3"><div class="card"><div class="ico">🔧</div><h3>תיקון תקלות מזגן</h3><p>טיפול בתקלות נפוצות במזגן הביתי או העסקי, עם איתור מדויק של הבעיה וטיפול ממוקד בהתאם למצב המזגן.</p></div><div class="card"><div class="ico">🌬️</div><h3>מזגן שלא מקרר</h3><p>כאשר המזגן פועל אך לא מקרר כראוי, נבדקת הסיבה המדויקת לתקלה ומתבצע הטיפול הנדרש בהתאם לממצאים.</p></div><div class="card"><div class="ico">🔥</div><h3>מזגן שלא מחמם</h3><p>טיפול במזגן שאינו מחמם כנדרש בעונה הקרה, כולל בדיקת הגורם לתקלה והתאמת הפתרון הנדרש למכשיר.</p></div><div class="card"><div class="ico">❄️</div><h3>מילוי גז למזגן</h3><p>השלמת גז קירור למזגן שאיבד מיעילות הקירור שלו, בהתאם לצורך שעולה מבדיקת המזגן במהלך הביקור.</p></div><div class="card"><div class="ico">⚡</div><h3>טיפול חשמלי במזגן</h3><p>בדיקה וטיפול בתקלות חשמל הקשורות למזגן, כחלק מהתהליך המקצועי לאיתור מקור התקלה ותיקונה כראוי.</p></div><div class="card"><div class="ico">🔍</div><h3>אבחון תקלה מקצועי</h3><p>בדיקת המזגן לזיהוי מקור התקלה המדויק לפני ביצוע כל טיפול, כדי להתאים מראש את הפתרון הנכון.</p></div></div>
+    <div class="grid c3"><div class="card"><div class="ico">🔧</div><h3>תיקוני מזגנים</h3><p>אבחון ותיקון תקלות במזגן הביתי או העסקי, ללא התקנות חדשות.</p></div><div class="card"><div class="ico">❄️</div><h3>מילוי גז למזגן</h3><p>מילוי גז קירור למזגן שאינו מקרר כראוי, לפי בדיקה בשטח.</p></div><div class="card"><div class="ico">⚡</div><h3>טיפול חשמלי במזגן</h3><p>בדיקה וטיפול בתקלות חשמל הקשורות למערכת המיזוג.</p></div><div class="card"><div class="ico">📞</div><h3>תיאום מראש</h3><p>קביעת מועד הגעה בשיחת טלפון או בהודעת וואטסאפ.</p></div><div class="card"><div class="ico">🏠</div><h3>שירות בקרית ים</h3><p>טיפול במזגנים בבתים פרטיים ובעסקים באזור קרית ים.</p></div><div class="card"><div class="ico">🛠️</div><h3>אבחון תקלות</h3><p>בדיקת המזגן במקום לאיתור מקור התקלה לפני ביצוע התיקון.</p></div></div>
   </div>
 </section>
 
@@ -198,9 +226,9 @@ footer a:hover{color:#fff}
   <div class="wrap">
     <div class="section-head">
       <div class="kicker">למה אנחנו</div>
-      <h2>למה לבחור בדניאל מיזוג אוויר</h2>
+      <h2>למה לפנות אלינו</h2>
     </div>
-    <div class="grid c3"><div class="card"><div class="ico">📱</div><h3>מענה זמין בוואטסאפ</h3><p>ניתן ליצור קשר בקלות בוואטסאפ ולתאם מראש את הטיפול הנדרש במזגן, בהתאם לתקלה שתוארה מבעוד מועד.</p></div><div class="card"><div class="ico">🗓️</div><h3>תיאום גמיש מראש</h3><p>ההגעה מתואמת מראש בהתאם לזמינות ולתיאום ההדדי, כך שהטיפול במזגן מתבצע בשעה שנוחה לשני הצדדים.</p></div><div class="card"><div class="ico">🎯</div><h3>טיפול ממוקד בתקלה</h3><p>העבודה של דניאל מיזוג אוויר מתמקדת בתיקון המזגן, מילוי גז וטיפול חשמלי, ללא הרחבה לשירותים נוספים כמו התקנות.</p></div></div>
+    <div class="grid c3"><div class="card"><div class="ico">💬</div><h3>זמינות בוואטסאפ</h3><p>אפשר לפנות בהודעה ולתאם את הפרטים בנוחות, בלי לחכות למענה טלפוני.</p></div><div class="card"><div class="ico">🗓️</div><h3>תיאום גמיש</h3><p>מועד ההגעה נקבע מראש בהתאם לזמינות שלכם ושל הטכנאי.</p></div><div class="card"><div class="ico">📋</div><h3>עבודה מוסכמת</h3><p>היקף העבודה מסוכם מראש כדי שתדעו למה לצפות לפני שהטכנאי מגיע.</p></div></div>
   </div>
 </section>
 
@@ -208,24 +236,24 @@ footer a:hover{color:#fff}
   <div class="wrap">
     <div class="section-head">
       <div class="kicker">התהליך</div>
-      <h2>איך מתבצע תהליך הטיפול</h2>
+      <h2>איך מתחילים</h2>
     </div>
-    <div class="steps"><div class="step"><div class="n"></div><div><h4>יצירת קשר</h4><p>פונים בטלפון או בוואטסאפ ומתארים בקצרה את התקלה שממנה סובל המזגן שברשותכם.</p></div></div><div class="step"><div class="n"></div><div><h4>תיאום מועד</h4><p>קובעים יחד מועד הגעה נוח לבדיקת המזגן, בהתאם לזמינות הנוחה לשני הצדדים.</p></div></div><div class="step"><div class="n"></div><div><h4>אבחון וטיפול</h4><p>בודקים את המזגן, מאתרים את מקור התקלה המדויק ומבצעים את הטיפול הנדרש בהתאם לממצאים.</p></div></div><div class="step"><div class="n"></div><div><h4>סיום העבודה</h4><p>בסיום העבודה המזגן נבדק שוב ומוודאים יחד שהתקלה שדיווחתם עליה טופלה כראוי.</p></div></div></div>
+    <div class="steps"><div class="step"><div class="n"></div><div><h4>יצירת קשר</h4><p>פונים בוואטסאפ או בטלפון ומתארים את התקלה במזגן.</p></div></div><div class="step"><div class="n"></div><div><h4>תיאום מועד</h4><p>קובעים יחד מועד הגעה נוח.</p></div></div><div class="step"><div class="n"></div><div><h4>בדיקה במקום</h4><p>הטכנאי מגיע ובודק את המזגן לאיתור התקלה.</p></div></div><div class="step"><div class="n"></div><div><h4>ביצוע התיקון</h4><p>התיקון מתבצע לפי מה שסוכם מראש.</p></div></div></div>
   </div>
 </section>
 
 <section id="faq" class="alt">
   <div class="wrap" style="max-width:800px">
-    <div class="section-head"><div class="kicker">שאלות נפוצות</div><h2>שאלות נפוצות על תיקון מזגנים</h2></div>
-    <details><summary>האם אתם גם מתקינים מזגנים חדשים?</summary><p>לא, זהו שירות תיקונים בלבד – דניאל מיזוג אוויר אינו מבצע התקנות של מזגנים חדשים, השירות כולל רק טיפול במזגנים קיימים.</p></details><details><summary>מה כולל הטיפול במזגן שלא מקרר?</summary><p>הטיפול כולל בדיקה של המזגן לאיתור מקור התקלה, ובהתאם לממצאים מתבצע הטיפול המתאים, כגון מילוי גז או טיפול חשמלי.</p></details><details><summary>איך אפשר לתאם ביקור טכנאי?</summary><p>ניתן ליצור קשר עם דניאל מיזוג אוויר בטלפון או בוואטסאפ, ולתאם מועד הגעה נוח לבדיקת המזגן וטיפול בתקלה שממנה הוא סובל.</p></details><details><summary>האם אפשר לקבל טיפול חשמלי במזגן בנפרד ממילוי גז?</summary><p>כן, ניתן לתאם עם דניאל מיזוג אוויר טיפול חשמלי במזגן בנפרד ממילוי הגז, בהתאם לתקלה הספציפית שממנה סובל המזגן שלכם.</p></details>
+    <div class="section-head"><div class="kicker">שאלות נפוצות</div><h2>שאלות נפוצות</h2></div>
+    <details><summary>אתם מבצעים גם התקנות מזגנים חדשים?</summary><p>לא, השירות מתמקד בתיקוני מזגנים קיימים בלבד, ללא התקנות.</p></details><details><summary>המזגן לא מקרר, מה יכולה להיות הסיבה?</summary><p>יכולות להיות כמה סיבות, ביניהן חוסר בגז קירור. הבדיקה בשטח תקבע מה נדרש.</p></details><details><summary>איך אפשר לתאם ביקור?</summary><p>אפשר לפנות בהודעת וואטסאפ או בשיחת טלפון ולקבוע מועד הגעה נוח.</p></details><details><summary>אתם מטפלים גם בתקלות חשמל במזגן?</summary><p>כן, בין השירותים מוצע גם טיפול חשמלי במזגן.</p></details>
   </div>
 </section>
 
 <section>
   <div class="wrap">
     <div class="cta-band">
-      <h2>יש תקלה במזגן? בואו נתאם טיפול</h2>
-      <p>צרו קשר כדי לתאם מועד לבדיקת המזגן ולטיפול בתקלה בהתאם לצורך שלכם.</p>
+      <h2>המזגן לא עובד כמו שצריך?</h2>
+      <p>צרו קשר בוואטסאפ או בטלפון לתיאום בדיקה.</p>
       <a class="btn btn-ghost" href="https://wa.me/972524490817" style="color:var(--accent-dark)">וואטסאפ · 052-4490817</a>
     </div>
   </div>
@@ -236,7 +264,7 @@ footer a:hover{color:#fff}
   <div class="wrap fgrid">
     <div>
       <h4>דניאל מיזוג אוויר</h4>
-      <p style="margin:0;max-width:44ch">דניאל מיזוג אוויר הוא טכנאי עצמאי הפועל באזור קרית ים, ומספק תיקון מזגנים, מילוי גז וטיפול חשמלי במזגן בתיאום מראש בטלפון או בוואטסאפ.</p>
+      <p style="margin:0;max-width:44ch">דניאל מיזוג אוויר, שירות תיקוני מזגנים בקרית ים - כולל מילוי גז וטיפול חשמלי במזגן.</p>
     </div>
     <div><h4>יצירת קשר</h4>
       <p style="margin:0 0 6px"><a href="tel:+972524490817">052-4490817</a></p>
