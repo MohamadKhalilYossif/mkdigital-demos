@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Page Not Found — MKDigital</title>
+    <meta name="robots" content="noindex, follow" />
+    <meta name="theme-color" content="#0c1220" />
+    <meta name="color-scheme" content="dark" />
+    <link rel="icon" type="image/png" href="/favicon.png?v=3" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800;900&display=swap" rel="stylesheet" />
+    <style>
+      * { box-sizing: border-box; margin: 0; padding: 0; }
+      html, body { height: 100%; }
+      body {
+        font-family: 'Outfit', system-ui, -apple-system, sans-serif;
+        background: #0c1220;
+        color: #F2F4F8;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        overflow-x: hidden;
+        position: relative;
+      }
+      .orb {
+        position: absolute;
+        border-radius: 50%;
+        filter: blur(120px);
+        pointer-events: none;
+        z-index: 0;
+      }
+      .orb-1 {
+        top: -20%; left: 50%; transform: translateX(-50%);
+        width: 900px; height: 900px;
+        background: conic-gradient(from 200deg, #F5A623, #D94E8F, #9B3FB5, #3AADEB, #5EC84E, #F5A623);
+        opacity: 0.14;
+      }
+      .orb-2 {
+        bottom: -15%; left: -10%;
+        width: 500px; height: 500px;
+        background: radial-gradient(circle, rgba(58,173,235,0.3), transparent 70%);
+      }
+      .grid-bg {
+        position: absolute; inset: 0; opacity: 0.03; pointer-events: none;
+        background-image:
+          linear-gradient(rgba(58,173,235,0.6) 1px, transparent 1px),
+          linear-gradient(90deg, rgba(58,173,235,0.6) 1px, transparent 1px);
+        background-size: 72px 72px;
+      }
+      main {
+        position: relative;
+        z-index: 1;
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 40px 24px;
+      }
+      .card {
+        max-width: 600px;
+        width: 100%;
+        text-align: center;
+        animation: fadeUp 0.7s cubic-bezier(0.16, 1, 0.3, 1) both;
+      }
+      @keyframes fadeUp {
+        from { opacity: 0; transform: translateY(30px); }
+        to   { opacity: 1; transform: translateY(0); }
+      }
+      .logo {
+        height: 44px;
+        margin-bottom: 32px;
+      }
+      .tag {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        padding: 6px 14px;
+        border-radius: 999px;
+        background: linear-gradient(135deg, rgba(217,78,143,0.12), rgba(155,63,181,0.12));
+        border: 1px solid rgba(217,78,143,0.3);
+        font-size: 11px;
+        font-weight: 700;
+        letter-spacing: 0.15em;
+        text-transform: uppercase;
+        color: #D94E8F;
+        margin-bottom: 20px;
+      }
+      .code {
+        font-size: clamp(80px, 18vw, 160px);
+        font-weight: 900;
+        line-height: 1;
+        letter-spacing: -0.04em;
+        background: linear-gradient(135deg, #F5A623 0%, #D94E8F 35%, #9B3FB5 65%, #3AADEB 100%);
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        margin-bottom: 12px;
+      }
+      h1 {
+        font-size: clamp(24px, 4vw, 36px);
+        font-weight: 800;
+        line-height: 1.2;
+        margin-bottom: 14px;
+      }
+      p {
+        font-size: 16px;
+        line-height: 1.65;
+        color: #94A3B8;
+        margin: 0 auto 32px;
+        max-width: 480px;
+      }
+      .actions {
+        display: flex;
+        gap: 12px;
+        justify-content: center;
+        flex-wrap: wrap;
+      }
+      .btn {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        height: 50px;
+        padding: 0 26px;
+        border-radius: 999px;
+        font-size: 14px;
+        font-weight: 700;
+        text-decoration: none;
+        cursor: pointer;
+        transition: transform 0.2s, box-shadow 0.2s;
+        border: none;
+      }
+      .btn-primary {
+        background: linear-gradient(135deg, #D94E8F, #9B3FB5);
+        color: #fff;
+        box-shadow: 0 10px 30px -10px rgba(217,78,143,0.6);
+      }
+      .btn-primary:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 14px 40px -10px rgba(217,78,143,0.8);
+      }
+      .btn-outline {
+        background: transparent;
+        border: 1.5px solid #334155;
+        color: #CBD5E1;
+      }
+      .btn-outline:hover {
+        border-color: #3AADEB80;
+        color: #F2F4F8;
+      }
+      footer {
+        position: relative;
+        z-index: 1;
+        padding: 20px 24px;
+        text-align: center;
+        font-size: 12px;
+        color: #475569;
+        border-top: 1px solid rgba(51,65,85,0.3);
+      }
+      footer a { color: #64748B; text-decoration: none; }
+      footer a:hover { color: #94A3B8; }
+    </style>
+  </head>
+  <body>
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+    <div class="grid-bg"></div>
+
+    <main>
+      <div class="card">
+        <img src="/logo2.png" alt="MKDigital" class="logo" />
+        <div class="tag">Error 404</div>
+        <div class="code">404</div>
+        <h1>This page wandered off.</h1>
+        <p>
+          The link you followed may be broken, or the page may have been moved.
+          Let's get you back to something useful.
+        </p>
+        <div class="actions">
+          <a href="/" class="btn btn-primary">← Back to home</a>
+          <a href="/#quiz" class="btn btn-outline">Start a project brief</a>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      Need help? <a href="mailto:info@mkdigital.co.il">info@mkdigital.co.il</a>
+    </footer>
+  </body>
+</html>

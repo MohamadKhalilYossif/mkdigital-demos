@@ -1,0 +1,27 @@
+# MKDigital robots policy
+User-agent: *
+Allow: /
+# Block the bundled JS/CSS — already surfaced via <script> tags, no SEO value
+Disallow: /assets/
+
+# Polite crawl delay for less-well-behaved bots
+User-agent: AhrefsBot
+Crawl-delay: 10
+
+User-agent: SemrushBot
+Crawl-delay: 10
+
+# AI crawlers — allow for visibility, but flag for review
+User-agent: GPTBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+Sitemap: https://mkdigital.co.il/sitemap.xml

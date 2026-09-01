@@ -1,0 +1,1 @@
+import{a as t}from"./icons-Cuz4qH7C.js";function i(s=.15){const n=t.useRef(null);return t.useEffect(()=>{const e=n.current;if(!e)return;const r=new IntersectionObserver(([c])=>{c.isIntersecting&&(e.classList.add("visible"),r.unobserve(e))},{threshold:s});return r.observe(e),()=>r.disconnect()},[s]),n}export{i as u};
